@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    padding-left: 80px;
+    display: flex;
+    border-bottom: 3px solid rgb(5, 211, 225);
+    justify-content: space-around;
+    box-shadow: 0px 2px 10px rgb(5, 211, 225);
+    background-color: white;
+    width: 100%;
+    z-index: 44;
+}
+
+.head.orta {
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+
+header>.head.orta>nav>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+
+.head.sag {
+    display: flex;
+    align-items: center;
+}
+
+header>.head.orta>nav {
+    width: 100%;
+}
+
+header>.head.orta>nav>ul>li>a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(104, 103, 103);
+}
+
+.esas {
+    height: 600px;
+    background-image: url(./assels/images/about.png);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sol {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sag {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uzluk {
+    padding: 0 50px;
+    height: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.sol>h1 {
+    font-size: 60px;
+}
+
+.sol>p {
+    margin: 40px 0;
+}
+
+.sol>h1>span {
+    color: rgb(5, 211, 225);
+}
+
+.sol>button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 162, 173);
+    border: none;
+    color: white;
+}
+
+.xidmet {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qutu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(5, 211, 225);
+    box-shadow: 0px 0px 10px rgb(5, 211, 225);
+}
+
+.qutu>p {
+    text-align: center;
+}
+
+.aboutucun {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about>h3 {
+    font-size: 50px;
+}
+
+.about>button {
+    border: none;
+    width: 90px;
+    height: 37px;
+    color: white;
+    background-color: rgb(0, 162, 173);
+}
+
+.about>p {
+    margin-block: 30px;
+}
+
+h4 {
+    font-size: 70px;
+    text-align: center;
+    padding: 38px 0;
+}
+
+.arrivals,
+.arrivals2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.arrbox {
+    border: 2px solid rgb(198, 198, 198);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 330px;
+}
+
+.arrbox>button {
+
+    border: 3px solid rgb(0, 162, 173);
+    width: 90px;
+    height: 37px;
+}
+
+.featured {
+    height: 600px;
+    overflow: auto;
+}
+
+.uzlukf {
+    display: flex;
+    justify-content: space-around;
+    height: 580px;
+    width: 4980px;
+}
+
+.fbox {
+    border: 2px solid rgb(198, 198, 198);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+}
+
+.pbir {
+    color: rgb(154, 152, 152);
+}
+
+.piki {
+    color: rgb(0, 162, 173);
+}
+
+.fbox>button {
+    border: 3px solid rgb(0, 162, 173);
+    width: 90px;
+    height: 37px;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+}
+
+.rbox {
+    width: 300px;
+    height: 350px;
+    padding: 20px 20px;
+    border: 2px solid rgb(5, 211, 225);
+    box-shadow: 0px 0px 8px rgb(5, 211, 225);
+    margin: 0 28px;
+}
+
+.ustr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.altr>p {
+    margin: 17px 0;
+    text-align: justify;
+}
+
+.altr>h5 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.div[class^="sekil"] {
+    width: 60px;
+    height: 60px;
+    background-size: 100% 100%;
+}
+
+.r1 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.r2 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.r3 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.r4 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.dbook {
+    margin-top: 50px;
+    height: 400px;
+    background-image: url(./assels/images/banner.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.dbook>button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 162, 173);
+    border: none;
+    color: white;
+    position: absolute;
+    left: 102px;
+    bottom: 100px;
+}
+
+.esasblog {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog {
+    border: 2px solid rgb(201, 201, 201);
+    box-shadow: 0px 0px 9px rgb(154, 152, 152);
+    width: 25%;
+    height: 500px;
+}
+
+.blogalt1 {
+    padding: 0 20px;
+}
+
+.blogalt1>h5 {
+    color: rgb(0, 162, 173);
+}
+
+.blogalt1>p {
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.blogalt2 {
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ustfoot {
+    padding-top: 20px;
+    margin-top: 30px;
+    height: 350px;
+    background-color: rgb(174, 174, 174);
+    display: flex;
+    justify-content: space-around;
+    height: 95%;
+}
+
+div[class^="foot"] {
+    display: flex;
+    flex-direction: column;
+}
+.foot2>h5,.foot3>h5,.foot4>h5,.foot5>h5{
+    font-size: 20px;
+}
+
+.foot1 {
+    width: 270px;
+}
+
+.foot1>p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.foot2>nav>ul {
+    list-style: none;
+    
+}
+
+.foot2>nav>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+.foot2>h5{
+    margin-bottom: 10px;
+}
+
+.foot3>h5 {
+    margin-bottom: 10px;
+}
+
+.foot3>a {
+    color: black;
+    text-decoration: none;
+}
+
+.foot4>h5{
+    margin-bottom: 3px;
+}
+.foot5>input{
+    border: none;
+    width: 350px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 0 10px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    
+}
+.foot5>button{
+    width: 160px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(0, 162, 173);
+}
+.altfoot{
+    background-color: rgb(174, 174, 174);
+    display: flex;
+    justify-content: center;
+}
+.altfoot>p>span{
+    color: rgb(1, 137, 147);
+}
